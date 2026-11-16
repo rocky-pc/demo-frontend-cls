@@ -1,0 +1,18 @@
+/* ======================================== */
+        /* Ecommerce Website */
+/* ======================================== */
+
+:root{
+    --primaryColor : #15370D;
+    --secondaryColor : #76C457;
+    --bgwhite : #FFF2F2;
+    --btncolor : #202734;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Sansita", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
