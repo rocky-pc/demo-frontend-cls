@@ -1,14 +1,27 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecommerce Website</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#15370d"><meta name="description" content="Shop everyday essentials at GreenCart.">
+  <title>GreenCart — Everyday shopping, made fresh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body>
-</body>
-</html>
+<body data-page="home">
+  <div class="announcement">Fresh finds, thoughtful prices <span>✦</span> Free delivery on orders over ₹999</div>
+  <header class="site-header"><a class="brand" href="./index.html"><span class="brand-mark">g</span> green<span>cart.</span></a>
+    <nav class="main-nav"><a class="active" href="./index.html">Home</a><a href="./assets/pages/productspage.html">Shop</a><a href="#about">Our story</a></nav>
+    <div class="header-actions"><a class="cart-link" href="./assets/pages/cart.html" aria-label="Shopping cart">Bag <span class="cart-count">0</span></a></div>
+  </header>
+  <main>
+    <section class="hero wrap"><div class="hero-copy"><p class="eyebrow">THE GOOD-GOOD MARKET</p><h1>Good things.<br><em>Every day.</em></h1><p class="hero-text">A little joy in every delivery. Discover everyday essentials and feel-good finds, picked with care.</p><div class="hero-actions"><a class="button button-dark" href="./assets/pages/productspage.html">Explore the shop <span>↗</span></a><span class="delivery-note">♡ Carefully picked for you</span></div></div>
+      <div class="hero-art"><div class="hero-sun"></div><div class="hero-label">A FRESH<br>TAKE ON<br>EVERYDAY</div><img src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1100&q=85" alt="Fresh market vegetables" onerror="this.style.display='none'"><div class="hero-sticker">GOOD<br>MOOD<br>GOODS ✳</div></div>
+    </section>
+    <section class="category-strip wrap"><div><span class="category-icon">✳</span><b>Thoughtfully picked</b><small>Everyday favourites</small></div><div><span class="category-icon">♡</span><b>Easy shopping</b><small>Simple, smooth checkout</small></div><div><span class="category-icon">↗</span><b>Made for you</b><small>Little things, big joy</small></div></section>
+    <section class="products-section wrap"><div class="section-heading"><div><p class="eyebrow">A FEW GOOD THINGS</p><h2>Popular picks</h2></div><a class="text-link" href="./assets/pages/productspage.html">View everything ↗</a></div><div id="featured-products" class="product-grid"></div></section>
+    <section class="story-band" id="about"><div class="wrap story-inner"><p class="eyebrow">LESS SCROLLING, MORE SMILING</p><h2>Your everyday shop,<br><em>with a little extra heart.</em></h2><p>Find your new favourites, add them to your bag, and make the everyday feel special.</p><a class="button button-light" href="./assets/pages/productspage.html">Find your favourites ↗</a></div></section>
+  </main>
+  <footer class="site-footer wrap"><a class="brand" href="./index.html"><span class="brand-mark">g</span> green<span>cart.</span></a><p>Good things for everyday living.</p><small>© <span id="year"></span> GreenCart. Demo storefront.</small></footer>
+  <script src="./assets/js/index.js"></script>
+</body></html>
